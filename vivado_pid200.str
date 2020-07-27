@@ -1,0 +1,1123 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 200
+License: Customer
+
+Current time: 	Sun Jul 26 14:51:17 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 38 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/vivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/vivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: C:/Users/user/Desktop/pld/pld3
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2018.3
+RDI_DATADIR: D:/vivado/Vivado/2018.3/data
+RDI_BINDIR: D:/vivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/user/Desktop/pld/pld3/vivado.log
+Vivado journal file location: 	C:/Users/user/Desktop/pld/pld3/vivado.jou
+Engine tmp dir: 	C:/Users/user/Desktop/pld/pld3/.Xil/Vivado-200-DESKTOP-3TFNAMU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_FOR_ALTIUM_OVERRIDE:  
+XILINX_PLANAHEAD: D:/vivado/Vivado/2018.3
+XILINX_SDK: D:/vivado/SDK/2018.3
+XILINX_VIVADO: D:/vivado/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/vivado/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 544 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 84 MB (+85364kb) [00:00:14]
+// [Engine Memory]: 534 MB (+408623kb) [00:00:14]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\user\Desktop\pld\pld3\pld3.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/user/Desktop/pld/pld3/pld3.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 592 MB. GUI used memory: 49 MB. Current time: 7/26/20, 2:51:19 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 699 MB (+144992kb) [00:00:35]
+// [GUI Memory]: 95 MB (+7499kb) [00:00:38]
+// [Engine Memory]: 735 MB (+411kb) [00:00:40]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3085 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  8395 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1173 ms.
+// Tcl Message: open_project C:/Users/user/Desktop/pld/pld3/pld3.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/26983/Desktop/pld3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1390 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 754 MB. GUI used memory: 52 MB. Current time: 7/26/20, 2:51:49 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 766.238 ; gain = 195.051 
+// Project name: pld3; location: C:/Users/user/Desktop/pld/pld3; part: xc7s25ftgb196-1
+dismissDialog("Open Project"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4425 ms. Increasing delay to 4000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_3 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 106 MB (+6262kb) [00:00:55]
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_3 -jobs 2 
+// Tcl Message: [Sun Jul 26 14:52:03 2020] Launched synth_3... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_3/runme.log 
+// 'k' command handler elapsed time: 9 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xc7s25ftgb196-1"); // h (Q, cp)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// F (cp): Settings: addNotify
+// 'dy' command handler elapsed time: 3 seconds
+// [Engine Memory]: 779 MB (+8505kb) [00:01:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3316 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 794 MB. GUI used memory: 64 MB. Current time: 7/26/20, 2:52:14 PM CST
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // q (a, F)
+// c (F): Select Device: addNotify
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7s15ftgb196-1 ; 196 ; 100 ; 8000 ; 16000 ; 10 ; 0 ; 20 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 2 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 578, "xc7s15ftgb196-1", 0); // x (Q, c)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (c)
+dismissDialog("Select Device"); // c (F)
+// [Engine Memory]: 823 MB (+4895kb) [00:01:18]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// [GUI Memory]: 118 MB (+6974kb) [00:01:19]
+// A (cp): Create New Run: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// b (cp): Create Run: addNotify
+dismissDialog("Create New Run"); // A (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (b)
+// TclEventType: RUN_ADD
+// Tcl Command: 'set_property INCLUDE_IN_ARCHIVE [ get_property INCLUDE_IN_ARCHIVE [get_runs synth_3]] [get_runs synth_4]'
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// bx (cp):  Change Settings : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1069 ms.
+// Tcl Message: create_run synth_4 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports} 
+// Tcl Message: Run is defaulting to srcset: sources_1 Run is defaulting to constrset: constrs_1 Run is defaulting to part: xc7s25ftgb196-1 
+// Tcl Message: current_run [get_runs synth_4] 
+// TclEventType: RUN_MODIFY
+dismissDialog("Create Run"); // b (cp)
+// Tcl Message: set_property part xc7s15ftgb196-1 [current_project] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PART_MODIFIED
+// [GUI Memory]: 126 MB (+2618kb) [00:01:24]
+dismissDialog("Change Settings"); // bx (cp)
+dismissDialog("Settings"); // F (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, cp)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bx (cp):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bx (cp)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// ah (cp): Upgrade IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// ab (cp): Enable Core Container: addNotify
+dismissDialog("Upgrade IP"); // ah (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ab)
+// 'Y' command handler elapsed time: 3 seconds
+dismissDialog("Enable Core Container"); // ab (cp)
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Upgrade IP : addNotify
+// Tcl Message: upgrade_ip [get_ips  {clk_wiz_0 rgb2dvi_0}] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'clk_wiz_0' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 878 MB. GUI used memory: 70 MB. Current time: 7/26/20, 2:52:44 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2092 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 920 MB (+58742kb) [00:01:46]
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated clk_wiz_0 to use current project options INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Upgrading 'rgb2dvi_0' 
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated rgb2dvi_0 to use current project options INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgb2dvi_0'... INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/user/Desktop/pld/pld3/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 927.699 ; gain = 93.297 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {clk_wiz_0 rgb2dvi_0}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_FAILED
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  {C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... 
+// HMemoryUtils.trashcanNow. Engine heap size: 950 MB. GUI used memory: 78 MB. Current time: 7/26/20, 2:53:00 PM CST
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgb2dvi_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgb2dvi_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -no_script -sync -force -quiet 
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files -ipstatic_source_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/modelsim} {questa=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/questa} {riviera=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/riviera} {activehdl=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -directory C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files -ipstatic_source_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/modelsim} {questa=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/questa} {riviera=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/riviera} {activehdl=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 28 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (C, I)
+// [GUI Memory]: 135 MB (+3001kb) [00:02:23]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+// PAPropertyPanels.initPanels (rgb2dvi_0.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// [Engine Memory]: 987 MB (+21980kb) [00:02:31]
+// WARNING: HEventQueue.dispatchEvent() is taking  1346 ms.
+// bx (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 987 MB. GUI used memory: 86 MB. Current time: 7/26/20, 2:53:35 PM CST
+dismissDialog("Open IP Catalog"); // bx (SwingUtilities.SharedOwnerFrame)
+collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0, "User Repository", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreTreeTablePanel_ADD_IP_TO_REPOSITORY, "Add IP to Repository..."); // af (al, cp)
+// Elapsed time: 99 seconds
+dismissFileChooser();
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2045 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1082 ms. Increasing delay to 3246 ms.
+// PAPropertyPanels.initPanels (D:/vivado/Vivado/2018.3/data/) elapsed time: 0.4s
+// Elapsed time: 145 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0); // O (Q, cp)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "UserIP ;  ;  ;  ; ", 2); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CSI-2 D-PHY RX v1_0 ;  ; Beta ; Included ; trenz.biz:user:csi2_d_phy_rx:1.0", 4, "CSI-2 D-PHY RX v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "RGB_LED_Task_v1_0 ;  ; Production ; Included ; xilinx.com:user:RGB_LED_Task:1.0", 13, "RGB_LED_Task_v1_0", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "OV5647_Init_v1_0 ;  ; Production ; Included ; xilinx.com:user:OV5647_Init:1.0", 12, "OV5647_Init_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LED_Task_v1_0 ;  ; Production ; Included ; xilinx.com:user:LED_Task:1.0", 11, "LED_Task_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_UART_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_UART:1.0", 10, "Driver_UART_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_SK6805_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_SK6805:1.0", 9, "Driver_SK6805_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_PWM_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_PWM:1.0", 8, "Driver_PWM_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_MIPI_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_MIPI:1.0", 7, "Driver_MIPI_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_IIC_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_IIC:1.0", 6, "Driver_IIC_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_HDMI_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_HDMI:1.0", 5, "Driver_HDMI_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CSI-2 D-PHY RX v1_0 ;  ; Beta ; Included ; trenz.biz:user:csi2_d_phy_rx:1.0", 4, "CSI-2 D-PHY RX v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clk_Division_v1_0 ;  ; Production ; Included ; xilinx.com:user:Clk_Division:1.0", 3, "Clk_Division_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "RGB_LED_Task_v1_0 ;  ; Production ; Included ; xilinx.com:user:RGB_LED_Task:1.0", 13, "RGB_LED_Task_v1_0", 0, true); // O (Q, cp) - Node
+// PAPropertyPanels.initPanels (D:/vivado/Vivado/2018.3/data/) elapsed time: 0.4s
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 15, "User Repository", 0, true); // O (Q, cp) - Node
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video & Image Processing ;  ;  ;  ; ", 14); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "RGB to DVI Video Encoder (Source) ;  ; Pre-Production ; Included ; digilentinc.com:ip:rgb2dvi:1.2", 17, "RGB to DVI Video Encoder (Source)", 0, true); // O (Q, cp) - Node
+// PAPropertyPanels.initPanels (D:/vivado/Vivado/2018.3/data/) elapsed time: 0.3s
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 18, "User Repository", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 18, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY, "Add Repository..."); // af (al, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1557 ms.
+// Elapsed time: 30 seconds
+setFolderChooser("C:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP C:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// bx (cp):  Refresh All IP Repositories : addNotify
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP'. 
+// S (cp): Critical Messages: addNotify
+// c (cp): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+dismissDialog("Add Repository"); // c (cp)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cp)
+// [GUI Memory]: 144 MB (+1582kb) [00:08:24]
+// Elapsed time: 30 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video & Image Processing ;  ;  ;  ; ", 14, "Video & Image Processing", 0, false, false, false, false, true, false); // O (Q, cp) - Popup Trigger
+// PAPropertyPanels.initPanels (D:/vivado/Vivado/2018.3/data/) elapsed time: 0.3s
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 19, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 83 MB. Current time: 7/26/20, 2:59:30 PM CST
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY, "Add Repository..."); // af (al, cp)
+// Elapsed time: 21 seconds
+setFolderChooser("C:/Users/user/Desktop/IP_Core/RGB2DVI_IP");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP C:/Users/user/Desktop/IP_Core/RGB2DVI_IP} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// bx (cp):  Refresh All IP Repositories : addNotify
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/IP_Core/RGB2DVI_IP'. 
+// S (cp): Critical Messages: addNotify
+// c (cp): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+dismissDialog("Add Repository"); // c (cp)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cp)
+// PAPropertyPanels.initPanels (D:/vivado/Vivado/2018.3/data/) elapsed time: 0.3s
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 20, "User Repository", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 20, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY, "Add Repository..."); // af (al, cp)
+// Elapsed time: 11 seconds
+dismissFolderChooser();
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_4 -jobs 2 
+// Tcl Message: [Sun Jul 26 15:00:30 2020] Launched synth_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "RGB to DVI Video Encoder (Source) ;  ; Pre-Production ; Included ; digilentinc.com:ip:rgb2dvi:1.2", 17, "RGB to DVI Video Encoder (Source)", 0, true); // O (Q, cp) - Node
+// PAPropertyPanels.initPanels (D:/vivado/Vivado/2018.3/data/) elapsed time: 0.3s
+// Elapsed time: 20 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 20, "User Repository", 0, true); // O (Q, cp) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 20, "User Repository", 0, true, false, false, false, true, false); // O (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY, "Add Repository..."); // af (al, cp)
+setFolderChooser("C:/Users/user/Desktop/IP_Core/RGB2DVI_IP");
+// HOptionPane Error: ''c:\Users\user\Desktop\IP_Core\RGB2DVI_IP' already specified. (File or Directory Already Specified)'
+selectButton("PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_FILE_OR_DIRECTORY_ALREADY_SPECIFIED_OK", "OK"); // JButton (C, I)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "RGB to DVI Video Encoder (Source) ;  ; Pre-Production ; Included ; digilentinc.com:ip:rgb2dvi:1.2", 17, "RGB to DVI Video Encoder (Source)", 0, true); // O (Q, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 : clk_wiz_0 (clk_wiz_0.xci)]", 2); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // A (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci), rgb2dvi_0(rgb2dvi_0_arch) (rgb2dvi_0.vhd)]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci), rgb2dvi_0(rgb2dvi_0_arch) (rgb2dvi_0.vhd)]", 9, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci), rgb2dvi_0(rgb2dvi_0_arch) (rgb2dvi_0.vhd), U0 : rgb2dvi(Behavioral) (rgb2dvi.vhd)]", 10); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci), rgb2dvi_0(rgb2dvi_0_arch) (rgb2dvi_0.vhd)]", 9); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8); // B (D, cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3323 ms. Increasing delay to 6000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 53 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_4 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jul 26 15:02:46 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), Display : DIS (DIS.v)]", 10, false); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // k (j, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rgb2dvi_0.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // k (j, cp)
+// TclEventType: RUN_STEP_COMPLETED
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Driver_HDMI_v1_0 ;  ; Production ; Included ; xilinx.com:user:Driver_HDMI:1.0", 5, "Driver_HDMI_v1_0", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "UserIP ;  ;  ;  ; ", 2, "UserIP", 0, false); // O (Q, cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3907 ms. Increasing delay to 7000 ms.
+// Elapsed time: 28 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, cp)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6570 ms. Increasing delay to 19710 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 47 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 65 ms. Decreasing delay to 2065 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_4 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Sun Jul 26 15:05:06 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3156 ms. Increasing delay to 9468 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5041 ms. Increasing delay to 8000 ms.
+// TclEventType: RUN_FAILED
+// ah (cp): Bitstream Generation Failed: addNotify
+// Elapsed time: 106 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;Rst_n;-;;-;10;-;"); // ah (Q, cp)
+selectButton("PAResourceItoN.MsgUtils_TO_SELECT_THIS_OBJECT_YOU_MUST_OPEN_Yes", "Yes"); // JButton (C, I)
+// bx (cp):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_4 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,055 MB. GUI used memory: 87 MB. Current time: 7/26/20, 3:07:05 PM CST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,537 MB. GUI used memory: 87 MB. Current time: 7/26/20, 3:07:19 PM CST
+// [Engine Memory]: 1,538 MB (+525191kb) [00:16:18]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.1s
+// Xgd.load filename: D:/vivado/Vivado/2018.3/data/parts/xilinx/spartan7/devint/spartan7/xc7s15/xc7s15.xgd; ZipEntry: xc7s15_detail.xgd elapsed time: 1.1s
+// [Engine Memory]: 1,626 MB (+11908kb) [00:16:21]
+// Device: addNotify
+// [GUI Memory]: 156 MB (+4776kb) [00:16:23]
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  5225 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7s15ftgb196-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated. INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1612.102 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1612.102 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1612.102 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 1739.004 ; gain = 726.848 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [Engine Memory]: 1,712 MB (+5471kb) [00:16:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  2143 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  4246 ms.
+// [GUI Memory]: 170 MB (+6461kb) [00:16:33]
+// S (cp): Critical Messages: addNotify
+// [GUI Memory]: 185 MB (+6942kb) [00:16:34]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+// Elapsed time: 34 seconds
+dismissDialog("Open Implemented Design"); // bx (cp)
+// PAPropertyPanels.initPanels (Rst_n) elapsed time: 0.2s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,787 MB. GUI used memory: 128 MB. Current time: 7/26/20, 3:07:37 PM CST
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true, false, false, false, true, false); // ah (Q, cp) - Popup Trigger - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true, false, false, false, true, false); // ah (Q, cp) - Popup Trigger - Node
+// [Engine Memory]: 1,856 MB (+61059kb) [00:17:12]
+// Elapsed time: 30 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 11); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("pld3.xdc", 875, 124); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 974, 126); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 669, 233); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 815, 207); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 511, 214); // cl (w, cp)
+// Elapsed time: 29 seconds
+selectCodeEditor("pld3.xdc", 591, 195); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 462, 70); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 611, 80); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 286, 77); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 419, 91); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 613, 111); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 721, 129); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 699, 202); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 697, 236); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 575, 78); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 463, 68); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 291, 63); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 291, 73); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 294, 50); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 295, 76); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 295, 56); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 294, 102); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 285, 67); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 304, 84); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 601, 55); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 412, 190); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("top.v", 75, 68); // cl (w, cp)
+selectCodeEditor("top.v", 120, 82); // cl (w, cp)
+selectCodeEditor("top.v", 77, 82); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 4, false); // B (D, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectCheckBox((HResource) null, "Reset active high", true); // g (o, r): TRUE
+selectCheckBox((HResource) null, "Reset active high", false); // g (o, r): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.kRstActiveHigh {false}] [get_ips rgb2dvi_0] 
+// TclEventType: FILESET_UPDATE_IP
+// aI (cp): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OF_OUTPUT_PRODUCTS_DID_NOT_OK", "OK"); // JButton (C, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,878 MB. GUI used memory: 133 MB. Current time: 7/26/20, 3:10:11 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectRadioButton((HResource) null, ">=120 MHz (1080p)"); // aT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U4 : Apple_generate_module (Apple_generate_module.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), Driver_HDMI : Driver_HDMI0 (Driver_HDMI0.v)]", 9, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), Driver_HDMI : Driver_HDMI0 (Driver_HDMI0.v)]", 9, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("Driver_HDMI0.v", 314, 263); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("Driver_HDMI0.v", 234, 47); // cl (w, cp)
+selectRadioButton((HResource) null, "< 120 MHz (720p)"); // aT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.kClkRange {2}] [get_ips rgb2dvi_0] 
+// aI (cp): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (C, J)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OF_OUTPUT_PRODUCTS_DID_NOT_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (cp):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (C, I)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_4 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_4 -jobs 2 
+// Tcl Message: [Sun Jul 26 15:11:49 2020] Launched synth_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log 
+// 'k' command handler elapsed time: 14 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4042 ms. Increasing delay to 9000 ms.
+// Elapsed time: 88 seconds
+selectCodeEditor("Driver_HDMI0.v", 125, 173); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("HDMI.v", 120, 239); // cl (w, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectCodeEditor("HDMI.v", 136, 246); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("HDMI.v", 98, 262); // cl (w, cp)
+selectCodeEditor("HDMI.v", 98, 262); // cl (w, cp)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cp)
+// bx (cp):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (C, I)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_4 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (cp)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// f (cp): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs synth_4 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jul 26 15:14:26 2020] Launched synth_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("HDMI.v", 182, 70); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U3 : Game_ctrl_module (Game_ctrl_module.v)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U3 : Game_ctrl_module (Game_ctrl_module.v)]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+// TclEventType: RUN_FAILED
+// ah (cp): Synthesis Failed: addNotify
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// [GUI Memory]: 196 MB (+2238kb) [00:24:12]
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'Rst_n' does not exist for instance 'Driver_HDMI' of module 'Driver_HDMI0' [C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/new/HDMI.v:40]. ]", 5, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'Rst_n' does not exist for instance 'Driver_HDMI' of module 'Driver_HDMI0' [C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/new/HDMI.v:40]. ]", 5, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\user\Desktop\pld\pld3\pld3.srcs\sources_1\new\HDMI.v;-;;-;16;-;line;-;40;-;;-;16;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'DIS' [C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/new/DIS.v:5]. ]", 6, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\user\Desktop\pld\pld3\pld3.srcs\sources_1\new\DIS.v;-;;-;16;-;line;-;5;-;;-;16;-;"); // ah (Q, cp)
+selectCodeEditor("DIS.v", 271, 169); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), Driver_HDMI : Driver_HDMI0 (Driver_HDMI0.v)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), Driver_HDMI : Driver_HDMI0 (Driver_HDMI0.v)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 31 seconds
+selectCodeEditor("HDMI.v", 112, 335); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run synth_4 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs synth_4 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jul 26 15:16:31 2020] Launched synth_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectCheckBox((HResource) null, "Reset active high", true); // g (o, r): TRUE
+selectCheckBox((HResource) null, "Reset active high", false); // g (o, r): FALSE
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP/Camera_IP/Driver_IP/rgb2dvi_v1_2' will take precedence over the same IP in location c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP. ]", 2, true); // ah (Q, cp) - Node
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP/Camera_IP/Driver_IP/rgb2dvi_v1_2' will take precedence over the same IP in location c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP. ]", 2, true); // ah (Q, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 : clk_wiz_0 (clk_wiz_0.xci)]", 2); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 10, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 10, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("top.v", 78, 74); // cl (w, cp)
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U2 : direct_output_module (Key_check_module.v)]", 3, false); // B (D, cp)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aI (aF, cp)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true); // ba (Q, cp) - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, false, true); // ba (Q, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_DEFINITION
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true); // ba (Q, cp) - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true, false, false, false, false, true); // ba (Q, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_DEFINITION
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[top]", 0, true); // ba (Q, cp) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_4 -jobs 2 
+// Tcl Message: [Sun Jul 26 15:18:44 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rgb2dvi_0.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, cp)
+// [GUI Memory]: 208 MB (+1785kb) [00:28:16]
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u (Q, cp)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u (Q, cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,878 MB. GUI used memory: 139 MB. Current time: 7/26/20, 3:20:48 PM CST
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 142 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_4 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Sun Jul 26 15:21:44 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, cp)
+selectCodeEditor("top.v", 80, 75); // cl (w, cp)
+// Elapsed time: 33 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v)]", 7); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U7 : HDMI (HDMI.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false); // B (D, cp)
+// TclEventType: RUN_FAILED
+// ah (cp): Bitstream Generation Failed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Failed"); // ah (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, pld3.xdc]", 13, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.. ]", 27, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.. ]", 27, false); // ah (Q, cp)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;Rst_n;-;;-;10;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;Rst_n;-;;-;10;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true, false, false, false, false, true); // ah (Q, cp) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;Rst_n;-;;-;10;-;"); // ah (Q, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("pld3.xdc", 884, 75); // cl (w, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true, false, false, false, true, false); // ah (Q, cp) - Popup Trigger - Node
+// Elapsed time: 32 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+// Elapsed time: 225 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+selectCodeEditor("pld3.xdc", 620, 229); // cl (w, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Netlist, Port, Invalid attribute value, [DRC IOSTDTYPE-1] IOStandard Type: I/O port Rst_n is Single-Ended but has an IOStandard of TMDS_33 which can only support Differential. ]", 26, true); // ah (Q, cp) - Node
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 : clk_wiz_0 (clk_wiz_0.xci)]", 2); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 : clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1237 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1259 ms to process. Increasing delay to 2000 ms.
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+// WARNING: updateGUI() is taking  1225 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4431 ms.
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cT (C, r)
+selectCheckBox((HResource) null, "reset", false); // g (bL, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1240 ms.
+selectCheckBox((HResource) null, "locked", false); // g (bL, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1204 ms.
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 0); // cT (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Re-customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false}] [get_ips clk_wiz_0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// aI (cp): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // bx (r)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2289 ms.
+// Tcl Message: generate_target all [get_files  C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 863 ms to process. Increasing delay to 2000 ms.
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 16230 ms. Increasing delay to 10000 ms.
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 2177.742 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files -ipstatic_source_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/modelsim} {questa=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/questa} {riviera=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/riviera} {activehdl=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 32 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 219 MB (+972kb) [00:38:08]
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_4 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_4 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jul 26 15:29:13 2020] Launched synth_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5164 ms. Increasing delay to 10000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 206 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_4 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jul 26 15:32:43 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("pld3.xdc", 443, 85); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 402, 82); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 13293 ms. Increasing delay to 10000 ms.
+// Elapsed time: 35 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 14 seconds
+selectCodeEditor("pld3.xdc", 473, 59); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 416, 124); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// HOptionPane Warning: 'Implementation is currently running. OK to reset anyway? (Run Synthesis)'
+dismissDialog("Run Synthesis"); // A (cp)
+// al (cp): Save Project: addNotify
+selectButton("PAResourceAtoD.DeleteRunsDialog_THERE_SOME_JOBS_THAT_APPEAR_TOBE_Yes", "Yes"); // JButton (C, I)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_4 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_4 -jobs 2 
+// Tcl Message: [Sun Jul 26 15:34:08 2020] Launched synth_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log 
+// 'k' command handler elapsed time: 8 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 71 seconds
+selectCodeEditor("pld3.xdc", 393, 237); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 310, 220); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 397, 223); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 405, 223); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 411, 134); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 421, 130); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 406, 130); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 459, 213); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 443, 100); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 874, 71); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 747, 202); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 700, 168); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 707, 185); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 767, 188); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 783, 188); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 565, 63); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 676, 78); // cl (w, cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectCodeEditor("pld3.xdc", 412, 135); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_4 -jobs 2 
+// Tcl Message: [Sun Jul 26 15:36:48 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 138 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+// 'cw' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cp)
+typeControlKey((HResource) null, "pld3.xdc", 'c'); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 42, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_4 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jul 26 15:39:17 2020] Launched impl_4... Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 87 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1056 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,878 MB. GUI used memory: 150 MB. Current time: 7/26/20, 3:50:48 PM CST

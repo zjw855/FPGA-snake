@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jul 25 21:28:00 2020
+# Process ID: 19900
+# Current directory: C:/Users/user/Desktop/pld/pld3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20824 C:\Users\user\Desktop\pld\pld3\pld3.xpr
+# Log file: C:/Users/user/Desktop/pld/pld3/vivado.log
+# Journal file: C:/Users/user/Desktop/pld/pld3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/pld/pld3/pld3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/26983/Desktop/pld3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 793.637 ; gain = 193.793
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 25 21:38:51 2020...
