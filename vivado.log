@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jul 26 14:50:48 2020
+# Process ID: 200
+# Current directory: C:/Users/user/Desktop/pld/pld3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6216 C:\Users\user\Desktop\pld\pld3\pld3.xpr
+# Log file: C:/Users/user/Desktop/pld/pld3/vivado.log
+# Journal file: C:/Users/user/Desktop/pld/pld3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/pld/pld3/pld3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/26983/Desktop/pld3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 766.238 ; gain = 195.051
+update_compile_order -fileset sources_1
+reset_run synth_3
+launch_runs synth_3 -jobs 2
+[Sun Jul 26 14:52:03 2020] Launched synth_3...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_3/runme.log
+create_run synth_4 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7s25ftgb196-1
+current_run [get_runs synth_4]
+set_property part xc7s15ftgb196-1 [current_project]
+WARNING: [IP_Flow 19-2162] IP 'rgb2dvi_0' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'rgb2dvi_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'clk_wiz_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {clk_wiz_0 rgb2dvi_0}] -log ip_upgrade.log
+Upgrading 'clk_wiz_0'
+INFO: [IP_Flow 19-3420] Updated clk_wiz_0 to use current project options
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+Upgrading 'rgb2dvi_0'
+INFO: [IP_Flow 19-3420] Updated rgb2dvi_0 to use current project options
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgb2dvi_0'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/user/Desktop/pld/pld3/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 927.699 ; gain = 93.297
+export_ip_user_files -of_objects [get_ips {clk_wiz_0 rgb2dvi_0}] -no_script -sync -force -quiet
+generate_target all [get_files  {C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci}]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgb2dvi_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgb2dvi_0'...
+export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files -ipstatic_source_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/modelsim} {questa=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/questa} {riviera=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/riviera} {activehdl=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -directory C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files -ipstatic_source_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/modelsim} {questa=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/questa} {riviera=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/riviera} {activehdl=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [filemgmt 20-965] The target 'changelog' is not supported by the file: C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci
+set_property  ip_repo_paths  {c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP C:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP/Camera_IP/Driver_IP/rgb2dvi_v1_2' will take precedence over the same IP in location c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP
+set_property  ip_repo_paths  {c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP C:/Users/user/Desktop/IP_Core/RGB2DVI_IP} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/IP_Core/RGB2DVI_IP'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/user/Desktop/pld/SEA开发板使用教程v1.6/SEA开发板使用教程/FPGA的样例工程（放在英文路径）/IP/Camera_IP/Driver_IP/rgb2dvi_v1_2' will take precedence over the same IP in locations: 
+   c:/Users/user/Desktop/SEA-Tutorial/IP_Core/RGB2DVI_IP
+   c:/Users/user/Desktop/IP_Core/RGB2DVI_IP
+launch_runs synth_4 -jobs 2
+[Sun Jul 26 15:00:30 2020] Launched synth_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log
+launch_runs impl_4 -jobs 2
+[Sun Jul 26 15:02:46 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
+launch_runs impl_4 -to_step write_bitstream -jobs 2
+[Sun Jul 26 15:05:06 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
+open_run impl_4
+INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1612.102 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1612.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1612.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 1739.004 ; gain = 726.848
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+set_property -dict [list CONFIG.kRstActiveHigh {false}] [get_ips rgb2dvi_0]
+set_property -dict [list CONFIG.kClkRange {2}] [get_ips rgb2dvi_0]
+reset_run synth_4
+launch_runs synth_4 -jobs 2
+[Sun Jul 26 15:11:49 2020] Launched synth_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log
+reset_run synth_4
+launch_runs synth_4 -jobs 2
+[Sun Jul 26 15:14:26 2020] Launched synth_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log
+reset_run synth_4
+launch_runs synth_4 -jobs 2
+[Sun Jul 26 15:16:31 2020] Launched synth_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log
+launch_runs impl_4 -jobs 2
+[Sun Jul 26 15:18:44 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
+launch_runs impl_4 -to_step write_bitstream -jobs 2
+[Sun Jul 26 15:21:44 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
+set_property -dict [list CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false}] [get_ips clk_wiz_0]
+generate_target all [get_files  C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+generate_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 2177.742 ; gain = 0.000
+export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/user/Desktop/pld/pld3/pld3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files -ipstatic_source_dir C:/Users/user/Desktop/pld/pld3/pld3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/modelsim} {questa=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/questa} {riviera=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/riviera} {activehdl=C:/Users/user/Desktop/pld/pld3/pld3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+launch_runs synth_4 -jobs 2
+[Sun Jul 26 15:29:13 2020] Launched synth_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log
+launch_runs impl_4 -jobs 2
+[Sun Jul 26 15:32:43 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
+reset_run synth_4
+launch_runs synth_4 -jobs 2
+[Sun Jul 26 15:34:08 2020] Launched synth_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/synth_4/runme.log
+launch_runs impl_4 -jobs 2
+[Sun Jul 26 15:36:48 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
+launch_runs impl_4 -to_step write_bitstream -jobs 2
+[Sun Jul 26 15:39:17 2020] Launched impl_4...
+Run output will be captured here: C:/Users/user/Desktop/pld/pld3/pld3.runs/impl_4/runme.log
